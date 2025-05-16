@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+.jupyterlite.doit.db
+.virtual_documents/
+
+# IDE / Editor config
+.idea/
+.vscode/
+*.code-workspace
+
+# Output, logs, temporary
+_output/
+*.log
+*.tmp
+*.bak
+
+# Data files (если временные)
+*.csv
+*.npy
+
+# Model files (если не хочешь пушить веса)
+*.h5
+*.json
+
+# System / OS
+.DS_Store
+Thumbs.db
+
+# Secrets (если появятся)
+.env
+.env.*
+secrets.env
